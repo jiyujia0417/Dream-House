@@ -1,0 +1,275 @@
+/* 重置样式 */
+*{
+    padding:0;
+    margin:0;
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+li{
+    list-style: none;
+}
+input{
+    outline:none;
+}
+
+.homepage-top{
+	width: 100%;
+	height: 30px;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+}
+.homepage-note{
+	width: 470px;
+	height: 25px;
+	float: left;
+}
+.homepage-note li{
+	float: left;
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	margin-left: 20px;
+	color: grey;
+	opacity: 0.3;
+}
+.homepage-online{
+	width: 570px;
+	height: 25px;
+	float: right;
+}
+.homepage-online a{
+	color: grey;
+	width: 190px;
+	text-indent: center;
+	margin-right: 28px;
+	opacity: 1;
+}
+.homepage-online span{
+	opacity: 0.3;
+}
+.homepage-logo{
+	float: left;
+}
+.homepage-down{
+	width: 1250px;
+	height: 80px;
+	margin: 0 auto;
+}
+.homepage-nav{
+	width: 540px;
+	height: 80px;
+	float: right;
+}
+.homepage-nav li{
+	float: left;
+	color: grey;
+	width: 90px;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+}
+.homepage-nav a{
+	width: 100px;
+	height: 90px;
+}
+.homepage-nav li:hover{
+	width: 90px;
+	height: 60px;
+	line-height: 60px;
+	color: #fff;
+	background-color:rgb(0,137,233);
+}
+
+.showcase-inside-container{
+    text-align: center;
+    margin:0 auto;
+}
+
+/* 头部的标题样式 */
+.showcase-inside-top{
+    text-align:center;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+.showcase-inside-title1 {
+    color:#666666;
+    font-size: 1.1em;
+}
+.showcase-inside-title2{
+    font-size:1.3em;
+}
+.showcase-inside-title2-1 {
+    color:#cc9933;
+}
+.showcase-inside-title2-2{
+    color:#006633;
+}
+.showcase-inside-title4{
+    color:#663300;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+.showcase-inside-title3{
+    color:#999999;
+    font-size: 1.7em;
+}
+
+/* ViewGallery的按钮 */
+.showcase-inside-btn{
+    padding-top: 5px;
+    margin:0 auto;
+    background-color: #cc9966;
+    height:70px;
+    width:190px;
+    position: absolute;
+    right:100px;
+}
+
+.showcase-dream-btn{
+    height:55px;
+    width:170px;
+    margin:0 auto;
+    border:5px solid #fff;
+    text-align: center;
+    line-height: 55px;
+    background-color: #cc9966;
+}
+.showcase-inside-btn li span{
+    font-size: 1.3em;
+    color:#fff
+}
+
+/* 大图片的样式 */
+.showcase-inside-pb{
+    height:55px;
+    width:170px;
+    margin:0 auto;
+    background-color: #993300;
+    border:5px solid #fff;
+    text-align: center;
+    line-height: 55px;
+}
+.showcase-inside-bt{
+    color: #fff;
+    margin:0 auto;
+    line-height: 30px;
+    text-align: center;
+    padding-top: 2px;
+    height:30px;
+    width:175px;
+    background-color: #336699;
+    border:3px solid #fff;
+}
+.showcase-inside-bigpic{
+    width:1200px;
+    height:500px;
+    position: absolute;
+    text-align:center;
+    z-index:1;
+    left:10%;
+}
+.showcase-inside-bigpic img{
+    border-bottom-right-radius:60px;
+    border-top-left-radius:60px;
+    width:1200px;
+    height:500px;
+}
+
+.showcase-inside-word{
+    color:#fff;
+    display:none;
+}
+.showcase-inside-bigpic:hover .showcase-inside-word{
+    display: block;
+    text-align:left;
+    line-height: 40px;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background: rgb(18,34,46);
+    opacity: 0.8;
+    width:1000px;
+    height:450px;
+    position: absolute;
+    bottom:0;
+    font-size:20px;
+    border-bottom-right-radius:60px;
+    border-top-left-radius:60px;
+}
+.showcase-inside-bigpic:hover .showcase-inside-word p div{
+    padding-top:10px;
+    padding-left: 50px;
+}
+
+/* 小图片的样式 */
+.showcase-inside-smallpic{
+    position:absolute;
+    z-index:2;
+    top:820px;
+    margin-left: 60px;
+}
+.showcase-inside-smallpic img{
+    border-bottom-right-radius:30px;
+    border-top-left-radius:30px;
+    width:200px;
+    height:110px;
+}
+.showcase-inside-smallpic li{
+    display:inline-block;
+    margin-right: 70px;
+}
+
+.showcase-inside-smallpic li img{
+    border:5px solid #fff;
+}
+.showcase-inside-smallpic li div{
+    background-color: #006633;
+    text-align: center;
+    height:45px;
+    width:195px;
+    margin:0 auto;
+    padding-top:8px;
+}
+#showcase-inside-smallpic img:hover{
+    cursor:pointer;
+}
+.inside-feature-btn{
+    color: #fff;
+    margin:0 auto;
+    line-height: 30px;
+    text-align: center;
+    padding-top: 2px;
+    height:30px;
+    width:175px;
+    background-color: #663300;
+    border:3px solid #fff;
+}
+
+/* 四个查看更多的图标 */
+.showcase-inside-features{
+    margin-top:780px; 
+    width:100%;
+    height:250px;
+    background-color: rgb(18,34,46);
+}
+.showcase-inside-features ul{
+    text-align: center;
+    padding-top: 50px;
+}
+.showcase-inside-features li{
+    display: inline-block;
+    margin-left: 90px;
+}
+.showcase-inside-features li h2{
+    color:#fff;
+}
+.showcase-inside-features li img{
+    height:100px;
+    width:100px;
+    background-color: #000;
+}

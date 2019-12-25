@@ -1,0 +1,165 @@
+/* 重置样式 */
+*{
+    padding:0;
+    margin:0;
+    list-style: none;
+}
+body{
+    background-color: #F0F8FF;
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+.homepage-head-container{
+    height: 125px;
+    border-bottom: 2px solid #ccc;
+}
+.homepage-top{
+    width: 100%;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+#homepage-go-top{
+    position: fixed;
+    top: 450px;
+    z-index: 999;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    color: white;
+    background: orange;
+}
+#homepage-in{
+    width: 22px;
+    height: 22px;
+    margin: 4px;
+    line-height: 20px;
+    text-align: center;
+    border: 1px solid white;
+}
+#homepage-in:hover{
+    cursor: pointer;
+    background: lightskyblue;
+}
+.homepage-note{
+    width: 470px;
+    height: 25px;
+    float: left;
+}
+.homepage-note li{
+    float: left;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    margin-left: 20px;
+    color: grey;
+    opacity: 0.3;
+}
+.homepage-online{
+    width: 570px;
+    height: 25px;
+    float: right;
+}
+.homepage-online a{
+    color: grey;
+    width: 190px;
+    text-indent: center;
+    margin-right: 28px;
+    opacity: 1;
+}
+.homepage-online span{
+    opacity: 0.3;
+}
+.homepage-down{
+    width: 1250px;
+    height: 80px;
+    margin: 0 auto;
+}
+.homepage-nav{
+    width: 540px;
+    height: 80px;
+    float: right;
+}
+.homepage-nav li{
+    float: left;
+    color: grey;
+    width: 90px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+}
+.homepage-nav a{
+    width: 100px;
+    height: 90px;
+}
+.homepage-nav li:hover{
+    width: 90px;
+    height: 60px;
+    line-height: 60px;
+    color: #fff;
+    background-color:rgb(0,137,233);
+}
+.homepage-logo{
+    float: left;
+}
+.room1,.room2,.room3,.room4{
+    float: left;
+    margin-left: 180px;
+    width: 400px;
+    height: 500px;
+    margin-top: 50px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 5px;
+}
+.room-entire{
+    margin-top: 50px;
+    height: 1200px;
+}
+.room-entire img:hover{
+    box-shadow: 0 0 20px #4E4E4E;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 5px;
+}
+.room-entire img{
+    transition:all 1s;
+    width: 400px;
+    height: 300px;
+}
+.room-title{
+    color: rgb(100,100,100,0.8);
+    font-size: 25px;
+    text-align: center;
+}
+.room-price{
+    color: green;
+}
+.room-text{
+    color: rgb(100,100,100,0.9);
+    font-size: 18px;
+}
+.room-book{
+    transition:all 1s;
+    cursor: pointer;
+    padding: 5px;
+    text-align: center;
+    width: 80px;
+    height: 20px;
+    background-color: grey;
+    color: white;
+    font-family: "华文新魏";
+    line-height: 20px;
+    margin:0px auto;
+}
+.room-book:hover{
+    background-color:orange;
+}
+

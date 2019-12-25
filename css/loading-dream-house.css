@@ -1,0 +1,90 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+a{
+	text-decoration:none;
+	color:black;
+}
+
+/* 背景图 */
+.loading-bg{
+    text-align: center;
+    margin:0 auto;
+    width:100%;
+	height:755px;
+    background: url(../images/bg/roombg.jpg) no-repeat 0 5px;
+}
+.loading-bg2{
+    background: rgba(16,32,44,0.5);
+    text-align: center;
+    margin:0 auto;
+    width:100%;
+    height:755px;
+}
+
+/* 用户登陆 */
+.loading-bg3{
+    padding-top: 150px;
+}
+.loading-box{
+    background:rgba(250,250,250,0.6);
+    width: 300px;
+    height: 460px;
+    padding: 0 20px;
+    border: 2px solid #1688ea;
+    margin: 10px auto;
+    border-bottom-right-radius:50px;
+    border-top-left-radius:50px;
+}
+.tit{
+    margin-top: 5px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.brand{
+    color: #1688ea;
+    font-size: 18px;
+    margin:20px;
+}
+.inp{
+    width: 100%;
+    height: 40px;
+    text-indent: 8px;
+}
+.notice{
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    color:#cc0033;
+	text-align: left;
+}
+
+.code{
+    width: 48%;
+}
+.getCode{
+    width: 48%;
+    height: 44px;
+    float: right;
+    border: none;
+    background-color: rgba(238,238,238,0.8);
+    cursor: pointer;
+}
+.codeImg{
+    text-align: left;
+    margin-top: 10px;
+    height: 40px;
+}
+.btn{
+    cursor: pointer;
+    background: #1688ea;
+    width: 100%;
+    height: 40px;
+    border: none;
+    margin-top: 8px;
+    color: #fff;
+    border-radius: 3px;
+}
